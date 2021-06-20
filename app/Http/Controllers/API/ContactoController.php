@@ -28,6 +28,11 @@ class ContactoController extends Controller
                             "nombre" => "Julio Leija Prueba",
                             "correo" => "julio.leija.3007@gmail.com",
                             "telefono" => "123465789"
+                        ),
+                        array(
+                            "nombre" => "Julio Leija Prueba",
+                            "correo" => "julio.leija.3007@gmail.com",
+                            "telefono" => "123465789"
                             )
         );
         return response()->json($response);
