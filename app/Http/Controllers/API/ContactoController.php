@@ -22,6 +22,14 @@ class ContactoController extends Controller
     }
 
     public function showAll(){
-        return response()->json(\App\Contacto::all(),200);
+        // return response()->json(\App\Contacto::all(),200);
+        $response = array(
+                        array(
+                            "nombre" => "Julio Leija Prueba",
+                            "correo" => "julio.leija.3007@gmail.com",
+                            "telefono" => "123465789"
+                            )
+        );
+        return response()->json($response);
     }
 }
