@@ -14,6 +14,8 @@ class Prueba extends Migration
     public function up()
     {
         // Esta es una prueba de migracion para realizar pull automatico
+        //prueba webhook con la vpn levantada
+        //prueba webhook sin all ipv4
     }
 
     /**
