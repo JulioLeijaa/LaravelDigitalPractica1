@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    JULIO CESAR LEIJA ONTIVEROS
+                    JULIO CESAR LEIJA
                 </div>
 
                 <div class="links">
