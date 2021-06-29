@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    JULIO CESAR LEIJA ONTIVEROS
                 </div>
 
                 <div class="links">
