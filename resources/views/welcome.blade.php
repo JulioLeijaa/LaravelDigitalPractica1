@@ -64,7 +64,8 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+       	<h1>Servidor 2</h1>
+	<div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
