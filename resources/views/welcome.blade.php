@@ -64,13 +64,7 @@
         </style>
     </head>
     <body>
-<<<<<<< HEAD
-       	<h1>Servidor 2</h1>
-	<div class="flex-center position-ref full-height">
-=======
-	<h1>Servidor1</h1>
         <div class="flex-center position-ref full-height">
->>>>>>> ad5587d008ab36bdd4292f362fd4284c0241e6cc
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -89,7 +83,6 @@
                 <div class="title m-b-md">
                     JULIO CESAR LEIJA
                     <br>
-                    <p>webhook</p>
                 </div>
 
                 <div class="links">
