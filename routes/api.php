@@ -29,3 +29,6 @@ Route::get('/contacto', 'API\ContactoController@showAll');
  * @return an object with contact after register it
  */
 Route::post('/contacto', 'API\ContactoController@register');
+
+Route::post('/usuario','API\AuthController@register');
+Route::get('/usuario', 'API\AuthController@showAll');

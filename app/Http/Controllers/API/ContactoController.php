@@ -4,7 +4,6 @@ namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-//use \App\User;
 
 class ContactoController extends Controller
 {
@@ -23,18 +22,5 @@ class ContactoController extends Controller
 
     public function showAll(){
         return response()->json(\App\Contacto::all(),200);
-        // $response = array(
-        //                 array(
-        //                     "nombre" => "Julio Leija Prueba",
-        //                     "correo" => "julio.leija.3007@gmail.com",
-        //                     "telefono" => "123465789"
-        //                 ),
-        //                 array(
-        //                     "nombre" => "Julio Leija Prueba",
-        //                     "correo" => "julio.leija.3007@gmail.com",
-        //                     "telefono" => "123465789"
-        //                     )
-        // );
-        // return response()->json($response);
     }
 }
