@@ -82,6 +82,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     JULIO CESAR LEIJA
+                    <br>
                 </div>
 
                 <div class="links">
