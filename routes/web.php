@@ -18,10 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('dashboard', [AuthController::class, 'dashboard']);
-Route::post('login', [AuthController::class, 'index'])->name('login');
-Route::post('custom-login', [AuthController::class, 'customLogin'])->name('login.custom');
-Route::post('logout', [AuthController::class, 'logout'])->name('logout');
+Route::get('/dashboard', [AuthController::class, 'dashboard']);
+Route::post('/login', [AuthController::class, 'index'])->name('login');
+Route::post('/custom-login', [AuthController::class, 'customLogin'])->name('login.custom');
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
 Auth::routes();
 
